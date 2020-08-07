@@ -102,7 +102,7 @@ namespace roundbeargames_tutorial
                     }
                 case PoolObjectType.LACROSSE_STICK:
                     {
-                        obj = Instantiate(Resources.Load("Putter", typeof(GameObject)) as GameObject);
+                        obj = Instantiate(Resources.Load("Lacrosse_stick", typeof(GameObject)) as GameObject);
                         break;
                     }
             }

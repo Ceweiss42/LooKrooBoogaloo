@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 7234531118717592577}
   - component: {fileID: 7234531118717592578}
   - component: {fileID: 7234531118717592579}
-  - component: {fileID: 7234531118717592580}
   - component: {fileID: -3758048638951825152}
+  - component: {fileID: 6808225184056940187}
+  - component: {fileID: 615092726964943255}
   m_Layer: 0
   m_Name: Lacrosse_stick
   m_TagString: Untagged
@@ -28,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7234531118717592581}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.93354684, y: 3.645619, z: 10.0475855}
-  m_LocalScale: {x: 0.1, y: 1, z: 0.1}
+  m_LocalPosition: {x: 0, y: 3.645619, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -41,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7234531118717592581}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: -2432090755550338912, guid: fb2ea5d96ea5d3b4a9121fd1c181aa54, type: 3}
 --- !u!23 &7234531118717592579
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -81,20 +82,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &7234531118717592580
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7234531118717592581}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &-3758048638951825152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,3 +96,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   poolObjectType: 13
   ScheduledOffTime: 0.7
+--- !u!136 &6808225184056940187
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7234531118717592581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.49815103
+  m_Height: 9.053001
+  m_Direction: 1
+  m_Center: {x: -0.118586995, y: 0.022751093, z: -1.161868}
+--- !u!114 &615092726964943255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7234531118717592581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeec57f5a8f6ef54188b68a6562debb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
