@@ -20,6 +20,7 @@ namespace roundbeargames_tutorial
         EXPLOSION,
         HANDS,
         CLAP,
+        LACROSSE_STICK,
 
     }
 
@@ -97,6 +98,11 @@ namespace roundbeargames_tutorial
                 case PoolObjectType.CLAP:
                     {
                         obj = Instantiate(Resources.Load("CFX_Hit_C White", typeof(GameObject)) as GameObject);
+                        break;
+                    }
+                case PoolObjectType.LACROSSE_STICK:
+                    {
+                        obj = Instantiate(Resources.Load("Putter", typeof(GameObject)) as GameObject);
                         break;
                     }
             }
