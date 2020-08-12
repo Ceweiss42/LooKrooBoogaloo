@@ -30,7 +30,8 @@ public class TargetGroupUpdater : MonoBehaviour
         for (int i = 0; i < targetGroup.GetComponent<CinemachineTargetGroup>().m_Targets.Length; i++)
         {
             Cinemachine.CinemachineTargetGroup.Target t = targetGroup.GetComponent<CinemachineTargetGroup>().m_Targets[i];
-            if (t.target.transform.position.z < 1)
+            Debug.Log(t.target.transform.position.y);
+            if (t.target.transform.position.z < -5 || t.target.transform.position.z > 15 || t.target.transform.position.y < -5 || t.target.transform.position.y > 10)
             {
                 targetGroup.GetComponent<CinemachineTargetGroup>().RemoveMember(t.target.transform);
             }
@@ -43,7 +44,7 @@ public class TargetGroupUpdater : MonoBehaviour
         foreach (Cinemachine.CinemachineTargetGroup.Target t in targets)
         {
             
-            if(t.target.transform.position.z > 1)
+            if(t.target.transform.position.z > -5 && t.target.transform.position.z < 15 && t.target.transform.position.y > -5 && t.target.transform.position.y < 10)
             {
                 if (targetGroup.GetComponent<CinemachineTargetGroup>().m_Targets.Length == 1)
                 {

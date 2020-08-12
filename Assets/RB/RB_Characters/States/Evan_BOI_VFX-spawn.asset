@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8612d635b451b404e87a93e60ad8f7a6, type: 3}
   m_Name: Evan_BOI_VFX-spawn
   m_EditorClassIdentifier: 
-  ObjectType: 12
+  ObjectType: 13
   SpawnTiming: 0.352
   Speed: 0
   ParentObjectName: WeaponPosition - Hands_Clap

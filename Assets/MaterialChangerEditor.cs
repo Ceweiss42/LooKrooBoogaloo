@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace RoundBearGames_ObstacleCourse
+/*namespace roundbeargames_tutorial
 {
     [CustomEditor(typeof(MaterialChanger))]
     public class MaterialChangerEditor : Editor
@@ -55,7 +55,7 @@ namespace RoundBearGames_ObstacleCourse
 
             EditorGUILayout.Space();
             EditorGUILayout.Space();
-            EditorGUILayout.Space();*/
+            EditorGUILayout.Space();
 
             // Complext Material Changer
 
@@ -137,4 +137,4 @@ namespace RoundBearGames_ObstacleCourse
             serializedObject.ApplyModifiedProperties();
         }
     }
-}
+}*/

@@ -17,17 +17,19 @@ MonoBehaviour:
   EndAttackTime: 0.52
   ColliderNames:
   - EvanLeftHand
+  - EvanRightHand
   collider: {fileID: 0}
   MustCollide: 1
   MustFaceAttacker: 0
   LethalRange: 0
   MaxHits: 1
   attackDamage: 1
-  damage: 1
+  damage: 4
   scaler: 0.1
-  baseMultiplier: 10
+  baseMultiplier: 2
   throwable: 0
   objectName: 
   bouncy: 0
+  knockAngle: {x: 0, y: 0.2, z: 1}
   FinishedAttacks:
   - {fileID: 0}

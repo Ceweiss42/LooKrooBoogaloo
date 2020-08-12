@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 223373fed4d14a94588b3694fc5a992e, type: 3}
+  m_Name: Globe_Attack
+  m_EditorClassIdentifier: 
+  debug: 1
+  StartAttackTime: 0
+  EndAttackTime: 10000
+  ColliderNames: []
+  collider: {fileID: 8407434394209391681, guid: 7de59b0c4f85142a68b16ab98a5a37d4,
+    type: 3}
+  MustCollide: 0
+  MustFaceAttacker: 0
+  LethalRange: 0.12
+  MaxHits: 1
+  attackDamage: 1
+  damage: 7.3
+  scaler: 0.4
+  baseMultiplier: 30
+  throwable: 1
+  objectName: Globe(Clone)
+  bouncy: 0
+  knockAngle: {x: 0, y: 0.1, z: 0.4}
+  FinishedAttacks: []

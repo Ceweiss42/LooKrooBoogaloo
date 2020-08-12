@@ -1379,7 +1379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3184821090951674585}
   m_Layer: 0
-  m_Name: WeaponPosition - Spring
+  m_Name: WeaponPosition - Globe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

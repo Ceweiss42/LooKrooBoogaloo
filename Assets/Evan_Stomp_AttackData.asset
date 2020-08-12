@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 223373fed4d14a94588b3694fc5a992e, type: 3}
+  m_Name: Evan_Stomp_AttackData
+  m_EditorClassIdentifier: 
+  debug: 0
+  StartAttackTime: 0.1
+  EndAttackTime: 5
+  ColliderNames:
+  - EvanHips
+  - EvanLeftUpLeg
+  - EvanLightLeg
+  - EvanLeftArm
+  - EvanRightUpLeg
+  - EvanRightLeg
+  - EvanSpine1
+  - EvanLeftArm
+  - EvanLeftForeArm
+  - EvanRightArm
+  - EvanRightForeArm
+  - EvanHead
+  - EvanRightHand
+  - EvanLeftHand
+  - Alpha_Surface
+  - Cube
+  - EvanYBOT
+  collider: {fileID: 0}
+  MustCollide: 1
+  MustFaceAttacker: 0
+  LethalRange: 1
+  MaxHits: 1
+  attackDamage: 0
+  damage: 9
+  scaler: 0.5
+  baseMultiplier: 23
+  throwable: 0
+  objectName: mixamorig:Spine1
+  bouncy: 0
+  knockAngle: {x: 0, y: 0.3, z: 0.1}
+  FinishedAttacks:
+  - {fileID: 0}

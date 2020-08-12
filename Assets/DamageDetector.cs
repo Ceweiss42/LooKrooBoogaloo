@@ -325,7 +325,7 @@ namespace roundbeargames_tutorial
                 this.HP = 0;
                 this.GetComponentInParent<BoxCollider>().transform.position = new Vector3(0, 5, 3);
                 this.GetComponentInParent<Rigidbody>().velocity = Vector3.zero;
-                if(this.gameObject.GetComponent<ManualInput>().enabled)
+                if (this.gameObject.GetComponent<ManualInput>().enabled)
                 {
                     SpawnCharacters.DeathsOne += 1;
                 }

@@ -29,6 +29,6 @@ MonoBehaviour:
   throwable: 0
   objectName: 
   bouncy: 0
-  knockAngle: {x: 0, y: 0, z: 1}
+  knockAngle: {x: 0, y: 0.01, z: 1}
   FinishedAttacks:
   - {fileID: 0}

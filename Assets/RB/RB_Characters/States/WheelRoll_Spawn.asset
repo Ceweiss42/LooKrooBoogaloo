@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8612d635b451b404e87a93e60ad8f7a6, type: 3}
   m_Name: WheelRoll_Spawn
   m_EditorClassIdentifier: 
-  ObjectType: 4
+  ObjectType: 10
   SpawnTiming: 0.703
   Speed: 20
-  ParentObjectName: WeaponPosition - Spring
+  ParentObjectName: WeaponPosition - Globe
+  ExplosiveParent: 
   StickToParent: 1
   Throwable: 1
+  OffsetRot: 0
+  Explosive: 0
+  rotation: {x: 0, y: 0, z: 0, w: 0}

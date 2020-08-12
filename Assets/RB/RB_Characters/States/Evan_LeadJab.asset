@@ -17,6 +17,7 @@ MonoBehaviour:
   EndAttackTime: 0.52
   ColliderNames:
   - mixamorig:LeftHand
+  - mixamorig:LeftHand
   collider: {fileID: 0}
   MustCollide: 1
   MustFaceAttacker: 0
@@ -29,5 +30,6 @@ MonoBehaviour:
   throwable: 0
   objectName: 
   bouncy: 0
+  knockAngle: {x: 0, y: 0, z: 0}
   FinishedAttacks:
   - {fileID: 0}

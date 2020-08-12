@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEditor;
-using UnityEditor.Callbacks;
 using UnityEngine.Rendering;
 
 namespace Minimalist

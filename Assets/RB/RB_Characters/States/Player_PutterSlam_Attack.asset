@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: Player_PutterSlam_Attack
   m_EditorClassIdentifier: 
   debug: 0
-  StartAttackTime: 0.3
-  EndAttackTime: 3
+  StartAttackTime: 0.5
+  EndAttackTime: 1
   ColliderNames: []
   collider: {fileID: 368941965395982983, guid: 1282388c630e243fe95fa50cc7f03244, type: 3}
   MustCollide: 0
-  MustFaceAttacker: 0
-  LethalRange: 0.4
+  MustFaceAttacker: 1
+  LethalRange: 1
   MaxHits: 1
   attackDamage: 0
   damage: 23.1
   scaler: 0.3
   baseMultiplier: 33
-  throwable: 1
+  throwable: 0
   objectName: Putter(Clone)
   bouncy: 0
   knockAngle: {x: 0, y: 0.2, z: 0.5}

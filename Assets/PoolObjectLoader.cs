@@ -16,6 +16,7 @@ namespace roundbeargames_tutorial
         SIDEKICK,
         BELLYFLOP,
         BUTTSLAM,
+        GLOBE,
         GRENADE,
         EXPLOSION,
         HANDS,
@@ -80,7 +81,7 @@ namespace roundbeargames_tutorial
 
                 case PoolObjectType.GRENADE:
                     {
-                        obj = Instantiate(Resources.Load("Battery", typeof(GameObject)) as GameObject);
+                        obj = Instantiate(Resources.Load("Globe", typeof(GameObject)) as GameObject);
                         break;
                     }
 
@@ -103,6 +104,11 @@ namespace roundbeargames_tutorial
                 case PoolObjectType.LACROSSE_STICK:
                     {
                         obj = Instantiate(Resources.Load("Lacrosse_stick", typeof(GameObject)) as GameObject);
+                        break;
+                    }
+                case PoolObjectType.GLOBE:
+                    {
+                        obj = Instantiate(Resources.Load("Globe", typeof(GameObject)) as GameObject);
                         break;
                     }
             }
