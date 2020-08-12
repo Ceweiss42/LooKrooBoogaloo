@@ -92,7 +92,7 @@ Transform:
   m_Children:
   - {fileID: 6871031785319609091}
   m_Father: {fileID: 2908379973656826143}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &466993409668258466
 GameObject:
@@ -1232,7 +1232,7 @@ Transform:
   m_Children:
   - {fileID: 7109482333849072525}
   m_Father: {fileID: 2908379973656826143}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1353380252934161478
 GameObject:
@@ -2858,7 +2858,7 @@ Transform:
   m_Children:
   - {fileID: 5125847330646727777}
   m_Father: {fileID: 2908379973656826143}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3836453851785864161
 GameObject:
@@ -2920,7 +2920,7 @@ Transform:
   m_Children:
   - {fileID: 3518504808562341312}
   m_Father: {fileID: 2908379973656826143}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4021421851943955156
 GameObject:
@@ -3382,6 +3382,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6241196458995538571}
+  - {fileID: 6708295717145015579}
   m_Father: {fileID: 86266506848695967}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4639,13 +4640,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'EvanSpine1'\n\tTransform 'mixamorig:RightHandPinky3'\n\tTransform
-    'EvanLeftFoot'\n\tTransform 'EvanLeftLeg'\n\tTransform 'mixamorig:RightHandMiddle1'\n\tTransform
-    'mixamorig:RightHandMiddle2'\n\tTransform 'mixamorig:RightHandThumb2'\n\tTransform
-    'mixamorig:RightHandRing2'\n\tTransform 'EvanRightUpLeg'\n\tTransform 'EvanLeftForeArm'\n\tand
-    more ...\n\tFrom animation clip 'Screwdriver'"
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -5256,7 +5251,7 @@ Transform:
   m_Children:
   - {fileID: 886100956049521703}
   m_Father: {fileID: 2908379973656826143}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7199726523214907245
 GameObject:
@@ -5410,6 +5405,36 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4832689152216441566}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7473909874887785247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4068727643405500573}
+  m_Layer: 0
+  m_Name: WeaponPosition - Clap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4068727643405500573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7473909874887785247}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2908379973656826143}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7706737587671918657
@@ -6441,6 +6466,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98e75ffcde0364d8985523e5f03673d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &8599904650847000513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6708295717145015579}
+  m_Layer: 0
+  m_Name: WeaponPosition - Stomp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6708295717145015579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8599904650847000513}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.8, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_Children: []
+  m_Father: {fileID: 5107876988834816470}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8599978672474204557
 GameObject:
   m_ObjectHideFlags: 0
@@ -6623,6 +6678,7 @@ Transform:
   m_LocalPosition: {x: -0.27614462, y: 0.00000031253268, z: 0.00000019597312}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4068727643405500573}
   - {fileID: 8954460581484577903}
   - {fileID: 4052907608083047505}
   - {fileID: 8619840563472028112}

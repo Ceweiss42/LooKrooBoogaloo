@@ -1,14 +1,11 @@
 fileFormatVersion: 2
-guid: 6b49eb106cb27454fb4cd33b98bc716d
+guid: 5c6f0d69e7adfe242be3bbe103963da5
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
-      74: 1062721595515975748
-    second: Screwdriver_bruh
-  - first:
       74: -4352182360597662222
-    second: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Layer0|
+    second: Clap
   externalObjects: {}
   materials:
     materialImportMode: 0
@@ -24,67 +21,21 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay'
+    animationImportWarnings: "\nClip 'Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Layer0|'
       has import animation warnings that might lower retargeting quality:\nNote:
       Activate translation DOF on avatar to improve retargeting quality.\n\t'EvanLeftForeArm'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandMiddle1'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandMiddle2'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandMiddle3'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandThumb1'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandIndex1'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandIndex2'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandIndex3'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandRing1'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandRing2'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandRing3'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandPinky1'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandPinky2'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandPinky3'
-      has translation animation that will be discarded.\n\t'EvanRightForeArm' has
-      translation animation that will be discarded.\n\t'mixamorig:RightHandMiddle1'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandMiddle2'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandMiddle3'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandThumb1'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandIndex1'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandIndex2'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandIndex3'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandRing1'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandRing2'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandRing3'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandPinky1'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandPinky2'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandPinky3'
-      has translation animation that will be discarded.\n\nClip 'Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Layer0|'
-      has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'EvanLeftForeArm'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandMiddle1'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandMiddle2'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandMiddle3'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandThumb1'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandIndex1'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandIndex2'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandIndex3'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandRing1'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandRing2'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandRing3'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandPinky1'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandPinky2'
-      has translation animation that will be discarded.\n\t'mixamorig:LeftHandPinky3'
-      has translation animation that will be discarded.\n\t'EvanRightForeArm' has
-      translation animation that will be discarded.\n\t'mixamorig:RightHandMiddle1'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandMiddle2'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandMiddle3'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandThumb1'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandIndex1'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandIndex2'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandIndex3'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandRing1'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandRing2'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandRing3'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandPinky1'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandPinky2'
-      has translation animation that will be discarded.\n\t'mixamorig:RightHandPinky3'
-      has translation animation that will be discarded.\n"
+      has translation animation that will be discarded.\n\t'EvanLeftHand' has translation
+      animation that will be discarded.\n\t'mixamorig:LeftHandMiddle1' has translation
+      animation that will be discarded.\n\t'mixamorig:LeftHandIndex1' has translation
+      animation that will be discarded.\n\t'mixamorig:LeftHandRing1' has translation
+      animation that will be discarded.\n\t'mixamorig:LeftHandPinky1' has translation
+      animation that will be discarded.\n\t'EvanRightForeArm' has translation animation
+      that will be discarded.\n\t'EvanRightHand' has translation animation that will
+      be discarded.\n\t'mixamorig:RightHandMiddle1' has translation animation that
+      will be discarded.\n\t'mixamorig:RightHandIndex1' has translation animation
+      that will be discarded.\n\t'mixamorig:RightHandRing1' has translation animation
+      that will be discarded.\n\t'mixamorig:RightHandPinky1' has translation animation
+      that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -98,11 +49,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Screwdriver_bruh
-      takeName: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Lay
+      name: Clap
+      takeName: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Layer0|
       internalID: 0
       firstFrame: 0
-      lastFrame: 90
+      lastFrame: 25
       wrapMode: 0
       orientationOffsetY: 90
       level: 0
@@ -112,37 +63,8 @@ ModelImporter:
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Layer0|
-      takeName: Armature|Armature|Armature|Armature|Armature|Armature|mixamo.com|Layer0|
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 164
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
@@ -167,7 +89,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -614,33 +536,13 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: screwdriver(Clone)
+    - name: jumping_clap(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Light
-      parentName: screwdriver(Clone)
-      position: {x: -4.0762453, y: 5.903862, z: -1.005454}
-      rotation: {x: 0.5232755, y: -0.34203398, z: 0.7269423, w: 0.28416622}
-      scale: {x: 100.00001, y: 99.999985, z: 99.99999}
-    - name: Camera
-      parentName: screwdriver(Clone)
-      position: {x: -7.3588915, y: 4.958309, z: 6.925791}
-      rotation: {x: 0.09062835, y: 0.89379627, z: -0.20997292, w: 0.38578004}
-      scale: {x: 99.99999, y: 99.99999, z: 99.999985}
-    - name: Light.001
-      parentName: screwdriver(Clone)
-      position: {x: -4.0762453, y: 5.903862, z: -1.005454}
-      rotation: {x: 0.5232755, y: -0.34203398, z: 0.7269423, w: 0.28416622}
-      scale: {x: 100.00001, y: 99.999985, z: 99.99999}
-    - name: Camera.001
-      parentName: screwdriver(Clone)
-      position: {x: -7.3588915, y: 4.958309, z: 6.925791}
-      rotation: {x: 0.09062835, y: 0.89379627, z: -0.20997292, w: 0.38578004}
-      scale: {x: 99.99999, y: 99.99999, z: 99.999985}
     - name: Armature
-      parentName: screwdriver(Clone)
+      parentName: jumping_clap(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0.000000081460335, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -1226,12 +1128,12 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Alpha_Surface
-      parentName: screwdriver(Clone)
+      parentName: jumping_clap(Clone)
       position: {x: -0, y: 0.000000004381495, z: 0.0000000029890093}
       rotation: {x: 0.00000008146037, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Alpha_Joints
-      parentName: screwdriver(Clone)
+      parentName: jumping_clap(Clone)
       position: {x: -0, y: 0.000000004381495, z: 0.0000000029890093}
       rotation: {x: 0.00000008146037, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
