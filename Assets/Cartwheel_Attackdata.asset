@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 223373fed4d14a94588b3694fc5a992e, type: 3}
   m_Name: Cartwheel_Attackdata
   m_EditorClassIdentifier: 
+  debug: 1
   StartAttackTime: 0.1
   EndAttackTime: 0.5
   ColliderNames:
@@ -19,14 +20,18 @@ MonoBehaviour:
   - mixamorig:RightHand
   - mixamorig:LeftFoot
   - mixamorig:RightFoot
+  collider: {fileID: 0}
   MustCollide: 1
   MustFaceAttacker: 0
   LethalRange: 0
   MaxHits: 1
   attackDamage: 0
-  damage: 4.2
-  scaler: 1
-  baseMultiplier: 1
-  debug: 1
+  damage: 12.3
+  scaler: 0.28
+  baseMultiplier: 20
+  throwable: 0
+  objectName: 
+  bouncy: 0
+  knockAngle: {x: 0, y: 0.4, z: 0.69}
   FinishedAttacks:
   - {fileID: 0}

@@ -13,20 +13,22 @@ MonoBehaviour:
   m_Name: Spring_Attack 1
   m_EditorClassIdentifier: 
   debug: 1
-  StartAttackTime: 0.1
-  EndAttackTime: 1
+  StartAttackTime: 0
+  EndAttackTime: 10000
   ColliderNames: []
   collider: {fileID: 8407434394209391681, guid: 7de59b0c4f85142a68b16ab98a5a37d4,
     type: 3}
   MustCollide: 0
   MustFaceAttacker: 0
-  LethalRange: 0.5
+  LethalRange: 0.12
   MaxHits: 1
   attackDamage: 1
-  damage: 1
-  scaler: 1
-  baseMultiplier: 1
+  damage: 9.9
+  scaler: 0.4
+  baseMultiplier: 30
   throwable: 1
   objectName: Spring(Clone)
+  bouncy: 0
+  knockAngle: {x: 0, y: 0.1, z: 0.4}
   FinishedAttacks:
   - {fileID: 0}

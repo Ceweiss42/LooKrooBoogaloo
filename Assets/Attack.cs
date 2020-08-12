@@ -24,6 +24,7 @@ namespace roundbeargames_tutorial
         public bool throwable;
         public string objectName;
         public bool bouncy;
+        public Vector3 knockAngle;
         
 
         public List<AttackInfo> FinishedAttacks = new List<AttackInfo>();

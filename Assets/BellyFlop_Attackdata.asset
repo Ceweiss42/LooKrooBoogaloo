@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: BellyFlop_Attackdata
   m_EditorClassIdentifier: 
   debug: 0
-  StartAttackTime: 0.5
-  EndAttackTime: 0.9
+  StartAttackTime: 0.1
+  EndAttackTime: 5
   ColliderNames:
   - mixamorig:Hips
   - mixamorig:LeftUpLeg
@@ -34,16 +34,16 @@ MonoBehaviour:
   - Cube
   - ybot
   collider: {fileID: 0}
-  MustCollide: 0
-  MustFaceAttacker: 1
+  MustCollide: 1
+  MustFaceAttacker: 0
   LethalRange: 0.1
   MaxHits: 1
   attackDamage: 0
-  damage: 3.4
+  damage: 9
   scaler: 0.5
-  baseMultiplier: 1
+  baseMultiplier: 23
   throwable: 0
   objectName: mixamorig:Spine1
   bouncy: 0
-  FinishedAttacks:
-  - {fileID: 0}
+  knockAngle: {x: 0, y: 0.2, z: 0.1}
+  FinishedAttacks: []

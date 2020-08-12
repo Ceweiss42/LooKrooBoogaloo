@@ -53,7 +53,7 @@ namespace roundbeargames_tutorial
                     Vector2 arrow = uiArrow.transform.position;
 
                     Vector2 difference = arrow - target;
-                    Debug.Log(difference);
+                    //Debug.Log(difference);
 
                     if (difference.x < .1f && difference.y < .1f)
                     {
@@ -97,7 +97,7 @@ namespace roundbeargames_tutorial
                 Vector2 arrow = uiArrow.transform.position;
 
                 Vector2 difference = target - arrow ;
-                Debug.Log(difference);
+                //Debug.Log(difference);
 
                 if(difference.x < .1f && difference.y < .1f)
                 {

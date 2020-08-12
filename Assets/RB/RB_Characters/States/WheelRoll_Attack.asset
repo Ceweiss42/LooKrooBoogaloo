@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: WheelRoll_Attack
   m_EditorClassIdentifier: 
   debug: 1
-  StartAttackTime: 0.1
-  EndAttackTime: 1
-  ColliderNames: []
+  StartAttackTime: 0
+  EndAttackTime: 3
+  ColliderNames:
+  - Wheel(Clone)
   collider: {fileID: 6260124933933310473, guid: 59cc7b15c3d0e486cb8361012f144384,
     type: 3}
   MustCollide: 1
@@ -28,5 +29,7 @@ MonoBehaviour:
   baseMultiplier: 1
   throwable: 1
   objectName: Wheel(Clone)
+  bouncy: 0
+  knockAngle: {x: 0, y: 0, z: 0}
   FinishedAttacks:
   - {fileID: 0}

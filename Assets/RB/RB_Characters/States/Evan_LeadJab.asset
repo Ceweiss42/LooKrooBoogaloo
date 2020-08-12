@@ -10,25 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 223373fed4d14a94588b3694fc5a992e, type: 3}
-  m_Name: Headbutt_Attackdata
+  m_Name: Evan_LeadJab
   m_EditorClassIdentifier: 
   debug: 1
-  StartAttackTime: 0.1
-  EndAttackTime: 0.8
+  StartAttackTime: 0.15
+  EndAttackTime: 0.52
   ColliderNames:
-  - mixamorig:Head
+  - mixamorig:LeftHand
   collider: {fileID: 0}
   MustCollide: 1
   MustFaceAttacker: 0
   LethalRange: 0
   MaxHits: 1
-  attackDamage: 0
-  damage: 16.7
-  scaler: 0.3
-  baseMultiplier: 20
+  attackDamage: 1
+  damage: 1
+  scaler: 0.1
+  baseMultiplier: 10
   throwable: 0
   objectName: 
   bouncy: 0
-  knockAngle: {x: 0, y: 1, z: 0.1}
   FinishedAttacks:
   - {fileID: 0}

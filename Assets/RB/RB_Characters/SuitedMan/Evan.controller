@@ -75,31 +75,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1101 &-8705728784197001187
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: Trampoline
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -5687204701828141472}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.0004813373
-  m_TransitionOffset: 0
-  m_ExitTime: 0.9989377
-  m_HasExitTime: 0
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
 --- !u!1102 &-8703741600726559047
 AnimatorState:
   serializedVersion: 5
@@ -108,7 +83,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jump_Normal_Prep 1
-  m_Speed: 2
+  m_Speed: 5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 3105876319167927058}
@@ -545,7 +520,7 @@ MonoBehaviour:
   ListAbilityData:
   - {fileID: 11400000, guid: e937e2f3a8c4c419b9f9490759bb8f95, type: 2}
   - {fileID: 11400000, guid: 37053042550bc4b5190ddbe86d1e4464, type: 2}
-  - {fileID: 11400000, guid: 17773a4b6c54bd24882059e85e87b944, type: 2}
+  - {fileID: 11400000, guid: ff0981fa00bc4a14aaa5d32f1cd5dc2d, type: 2}
 --- !u!1101 &-6774288652541655428
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -610,6 +585,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: Trampoline
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: Grounded
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5687204701828141472}
@@ -676,7 +654,8 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f1d685353fafcf947a7debc42213feb8, type: 3}
+  m_Motion: {fileID: -4352182360597662222, guid: 5c6f0d69e7adfe242be3bbe103963da5,
+    type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -1620,12 +1599,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterControl: {fileID: 0}
   ListAbilityData:
-  - {fileID: 11400000, guid: 5cd48c8259f52d44583d43f3440b3168, type: 2}
-  - {fileID: 11400000, guid: 5ad1eca98f62f4cd5b6281a491d39f30, type: 2}
-  - {fileID: 11400000, guid: 9fc487bb75d4c47ca9dc862a8e28b3f0, type: 2}
-  - {fileID: 11400000, guid: 3467451766b72452f9648bfe2137b526, type: 2}
+  - {fileID: 11400000, guid: e937e2f3a8c4c419b9f9490759bb8f95, type: 2}
+  - {fileID: 11400000, guid: ff0981fa00bc4a14aaa5d32f1cd5dc2d, type: 2}
   - {fileID: 11400000, guid: 37053042550bc4b5190ddbe86d1e4464, type: 2}
-  - {fileID: 11400000, guid: 796acd0bf287847a896308b2eb85650f, type: 2}
+  - {fileID: 11400000, guid: 1290b82bd37e25c4e8da48c5b0f5af07, type: 2}
+  - {fileID: 11400000, guid: 5ad1eca98f62f4cd5b6281a491d39f30, type: 2}
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
@@ -2361,7 +2339,6 @@ AnimatorState:
   - {fileID: 1101393207580036788}
   - {fileID: 8739816911414872751}
   - {fileID: 8815569271721176790}
-  - {fileID: -8705728784197001187}
   - {fileID: 8030775215271852251}
   - {fileID: -4027354466308930543}
   - {fileID: 3001419750652813742}
@@ -2531,7 +2508,6 @@ AnimatorState:
   - {fileID: 2142764265484359785}
   - {fileID: -7475725572467830649}
   - {fileID: -3478188534702111288}
-  - {fileID: 1685832255774905639}
   m_StateMachineBehaviours:
   - {fileID: 114082328153831942}
   m_Position: {x: 50, y: 50, z: 0}
@@ -2567,6 +2543,7 @@ AnimatorState:
   - {fileID: 6022045351398963831}
   - {fileID: -7746852896129499118}
   - {fileID: -2058540189356293947}
+  - {fileID: 7440320070541978838}
   m_StateMachineBehaviours:
   - {fileID: 114485883369870116}
   m_Position: {x: 50, y: 50, z: 0}
@@ -2766,31 +2743,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1101 &1685832255774905639
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: Trampoline
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -5687204701828141472}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.0631924
-  m_TransitionOffset: 0
-  m_ExitTime: 0.7692308
-  m_HasExitTime: 0
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
 --- !u!1101 &1729693649232650161
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -3388,7 +3340,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 13009fb40cf07a749a5193f8192148ba,
+  m_Motion: {fileID: -203655887218126122, guid: 71d154b5fc5ccab45bea966dbe6e26fd,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -3482,7 +3434,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: WheelRoll
-  m_Speed: 3.5
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5322383236604689556}
@@ -3496,7 +3448,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 995bcf25005d5fc4aa96379522774405,
+  m_Motion: {fileID: -203655887218126122, guid: 6f2a4cf9abb129a4d9dd0955b16ee156,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -3576,6 +3528,34 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.020769238
   m_TransitionOffset: 0.17115399
   m_ExitTime: 0.8452157
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &7440320070541978838
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Trampoline
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Grounded
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -5687204701828141472}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.01826477
+  m_TransitionOffset: 0.039726075
+  m_ExitTime: 0.39514405
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0

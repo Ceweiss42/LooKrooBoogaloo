@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
+using JetBrains.Annotations;
+using System.Linq;
 
 namespace roundbeargames_tutorial
 {
@@ -87,6 +88,17 @@ namespace roundbeargames_tutorial
 
                 if (info.isFinished)
                 {
+                    if(info.throwable)
+                    {
+                        GameObject[] objs;
+                        objs = (GameObject.FindGameObjectsWithTag("Throw"));
+
+                        for(int i = 0; i < objs.Length; i++)
+                        {
+                            Destroy(objs[i]);
+                        }
+                        Destroy(GameObject.Find(info.objectName));
+                    }
                     continue;
                 }
 
@@ -152,8 +164,18 @@ namespace roundbeargames_tutorial
                         //Debug.Log("------------------------->>>>>" + dist + ",   " + obj);
                         if (dist <= info.LethalRange)
                         {
+                            float d;
+                            float o = thrownObj.transform.position.z;
+                            float p = control.transform.position.z;
+
+                            d = Mathf.Abs(o - p);
+
+                            if(d <= info.LethalRange)
+                            {
+                                TakeDamage(info);
+                                Debug.Log(d +"  Checks: " + o + ",    " + p);
+                            }
                             
-                            TakeDamage(info);
                         }
                     }
                     
@@ -228,14 +250,29 @@ namespace roundbeargames_tutorial
             float s = info.scaler;
             float b = info.baseMultiplier;
 
+            float partA = (d + 2);
+            float partB = (d + h);
+            float partC = (info.Attacker.GetWeight() + 100);
+            float numerator = (partA * partB * 7);
+            float fraction = numerator / partC;
+            float inner = fraction + 9;
+            float innerTwo = 2 * s;
+            inner *= innerTwo;
+            inner += b;
+
+            float knockback = inner;
+
+
+
             if (info.Attacker.FaceLeft)
             {
-                control.RIGID_BODY.AddForce(-Vector3.forward * 100);
+                control.RIGID_BODY.AddForce(-(new Vector3(info.knockAngle.x, -info.knockAngle.y, info.knockAngle.z)) * knockback * 10);
             }
 
             else
             {
-                control.RIGID_BODY.AddForce(Vector3.forward * 100);
+                control.RIGID_BODY.AddForce(info.knockAngle * knockback * 10);
+                
             }
 
             
@@ -285,7 +322,9 @@ namespace roundbeargames_tutorial
             if(GetStocks() != 1)
             {
                 this.Stocks -= 1;
+                this.HP = 0;
                 this.GetComponentInParent<BoxCollider>().transform.position = new Vector3(0, 5, 3);
+                this.GetComponentInParent<Rigidbody>().velocity = Vector3.zero;
                 if(this.gameObject.GetComponent<ManualInput>().enabled)
                 {
                     SpawnCharacters.DeathsOne += 1;

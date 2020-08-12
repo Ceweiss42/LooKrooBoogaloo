@@ -24,6 +24,7 @@ namespace roundbeargames_tutorial
         public Collider col;
         public string objectName;
         public bool bouncy;
+        public Vector3 knockAngle;
 
         public void ResetInfo(Attack attack, CharacterControl attacker)
         {
@@ -53,6 +54,7 @@ namespace roundbeargames_tutorial
             col = attack.collider;
             objectName = attack.objectName;
             bouncy = attack.bouncy;
+            knockAngle = attack.knockAngle;
              
         }
 

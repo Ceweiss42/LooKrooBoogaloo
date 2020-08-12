@@ -97,6 +97,11 @@ namespace roundbeargames_tutorial
 			}
 		}
 
+        public float GetWeight()
+        {
+            return weight;
+        }
+
 		private void RegisterCharacter()
 		{
 			CharacterManager.Instance.Characters.Add(this);

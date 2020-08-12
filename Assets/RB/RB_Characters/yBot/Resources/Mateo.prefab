@@ -3167,7 +3167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dd: {fileID: 0}
-  weight: 100
+  weight: 60
   playableCharacterType: 1
   SkinnedMeshAnimator: {fileID: 518990604571495197}
   MoveRight: 0

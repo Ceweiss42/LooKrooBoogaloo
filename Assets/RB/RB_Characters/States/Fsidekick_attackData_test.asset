@@ -27,11 +27,12 @@ MonoBehaviour:
   LethalRange: 1
   MaxHits: 1
   attackDamage: 1
-  damage: 1
-  scaler: 0.1
+  damage: 13.5
+  scaler: 0.363
   baseMultiplier: 10
   throwable: 0
   objectName: mixamorig:LeftUpLeg
   bouncy: 0
+  knockAngle: {x: 0, y: 0.5, z: 0.6}
   FinishedAttacks:
   - {fileID: 0}

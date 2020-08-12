@@ -20,7 +20,7 @@ namespace roundbeargames_tutorial
 		// Update is called once per frame
 		void Update()
 		{
-			stocks.text = "DEATHS: " + cc.dd.GetStocks();
+			stocks.text = "LIVES: " + cc.dd.GetStocks();
 
 		}
 	}
